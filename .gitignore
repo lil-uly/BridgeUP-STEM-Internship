@@ -1,4 +1,11 @@
 #ignore files that end in _KA.ipynb
 *_KA.ipynb
+<<<<<<< HEAD
 *.ipynb_checkpoints
 *.DS_Store
+=======
+*_KA*
+*.ipynb_checkpoints
+*.DS_Store
+*.orig
+>>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66

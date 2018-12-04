@@ -2,7 +2,11 @@
 
 ![Image of sea otter](https://www.maxpixel.net/static/photo/2x/Swimming-Sea-Otter-Floating-Mammal-Alaska-Ocean-273064.jpg)
 
+<<<<<<< HEAD
 This is the GitHub 1 repository for Katy Abbott's 2018 - 2019 BridgeUP:STEM internship group: Ocean's Six
+=======
+This is the GitHub repository for Katy Abbott's 2018 - 2019 BridgeUP:STEM internship group: Ocean's Six
+>>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
 
 ## Useful links
 #### 1. [Coding cheat sheet](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/coding_cheat_sheet.md)
@@ -20,6 +24,7 @@ With all the useful commands we've learned so far.
 | Oct. 30, 2018 (Tuesday) | Introduction to numpy arrays | - How to store and access data with numpy + overview of our project <br/> -What types of visualizations will we make this year? | Halloween | [Tips for indexing numpy arrays](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/numpy_arrays_103018.ipynb)
 | Nov. 1, 2018 (Thursday) | Introduction to netCDF files + array review  | - Numpy array review <br/> - Practice with netCDFs |  | [numpy practice](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/numpy-practice_110118.ipynb) <br/> <br/> [netCDF practice](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/netCDF_practice.ipynb)
 | Nov. 6, 2018 (Tuesday) | No session |   | Election Day |
+<<<<<<< HEAD
 | **Nov. 8, 2018 (Thursday)** | Numpy arrays revisited | - Review of numpy arrays <br/>  |  | [Visualizing numpy arrays](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/numpy_arrays_visualized_110818.ipynb)
 | Nov. 13, 2018 (Tuesday) | Guest speaker | - Guest speaker | Guest speaker: Mia Polansky |
 | Nov. 15, 2018 (Thursday) | How to work with netCDF data | - Opening files |  | [netCDF practice](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/netCDF_practice.ipynb)
@@ -31,6 +36,19 @@ With all the useful commands we've learned so far.
 | Dec. 6, 2018 (Thursday) | Begin developing presentation |  |  |
 | Dec. 11, 2018 (Tuesday) | Continue developing presentation |  |  |
 | Dec. 13, 2018 (Thursday) | Presentation skills workshop |   |   |
+=======
+| Nov. 8, 2018 (Thursday) | Numpy arrays revisited | - Review of numpy arrays <br/>  |  | [Visualizing numpy arrays](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/numpy_arrays_visualized_110818.ipynb)
+| Nov. 13, 2018 (Tuesday) | Guest speaker | - Guest speaker | Guest speaker: Mia Polansky |
+| Nov. 15, 2018 (Thursday) | How to work with netCDF data | - Opening files |  | [netCDF practice](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/jupyter-notebooks/netCDF_practice.ipynb)
+| Nov. 20, 2018 (Tuesday) | Review of what we've learned, more netCDF work | - Brainstorm about winter presentation <br/> - Introducing Sublime |  |
+| Nov. 22, 2018 (Thursday) | No session |   | Thanksgiving Day |
+| Nov. 27, 2018 (Tuesday) | Path game | - What are file paths? <br/> - What is the difference between an absolute and relative path? |  |
+| **Nov. 29, 2018 (Thursday)** | Exploring our Bermuda SLA dataset |  | |  [Resolving merge conflicts](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/merge-conflicts-jupyter-notebooks.md) <br/> <br/> [Diving into our Bermuda dataset](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/labs/netCDF_files_112918.md) 
+| Dec. 4, 2018 (Tuesday) | Exploring our Bermuda SLA dataset |  |  | [Diving into our Bermuda dataset](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/labs/netCDF_files_112918.md) 
+| Dec. 6, 2018 (Thursday) | Begin developing presentation |  |  |
+| Dec. 11, 2018 (Tuesday) | Continue developing presentation |  |  |
+| Dec. 13, 2018 (Thursday) | Community building activity |   |   |
+>>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
 | Dec. 18, 2018 (Tuesday) | Presentation practice |   |   |
 | Dec. 20, 2018 (Thursday) | Interns winter presentation |   |   |
 | Dec. 25, 2018 (Tuesday) | No class |   | Winter recess  |
@@ -51,8 +69,13 @@ With all the useful commands we've learned so far.
 | Feb. 14, 2019 (Thursday) |   |   |   |
 | Feb. 19, 2019 (Tuesday) | No session |   |  Mid-winter recess |
 | Feb. 21, 2019 (Thursday) | No session |   |  Mid-winter recess |
+<<<<<<< HEAD
 | Feb. 26, 2019 (Tuesday) | Resume building workshop |   |   |
 | Feb. 28, 2019 (Thursday) | HTML/CSS Workshop |   |   |
+=======
+| Feb. 26, 2019 (Tuesday) | Resume building workshop |   | Katy gone for conference  |
+| Feb. 28, 2019 (Thursday) | HTML/CSS Workshop |   | Katy gone for conference  |
+>>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
 | March 5, 2019 (Tuesday) |   |   |   |
 | March 7, 2019 (Thursday) |   |   |   |
 | March 12, 2019 (Tuesday) |   |   |   |
@@ -62,7 +85,11 @@ With all the useful commands we've learned so far.
 | March 26, 2019 (Tuesday) |   |   |   |
 | March 28, 2019 (Thursday) |   |   |   |
 | April 2, 2019 (Tuesday) |   |   |   |
+<<<<<<< HEAD
 | April 4, 2019 (Thursday) | Cluster training |   |   |
+=======
+| April 4, 2019 (Thursday) | Presentation skills workshop |   |   |
+>>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
 | April 9, 2019 (Tuesday) |   |   |   |
 | April 11, 2019 (Thursday) |   |   |   |
 | April 16, 2019 (Tuesday) |   |   |   |

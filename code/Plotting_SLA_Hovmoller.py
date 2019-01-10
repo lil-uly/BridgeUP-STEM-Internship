@@ -22,8 +22,12 @@ plt.xlabel('Longitude')
 plt.ylabel('Latitude')
 plt.title('Sea level Anomalies in Bermuda on day 9149')
 #plt.savefig('SLA Bermuda 9149', format = 'png', dpi=1000)
-
+long
 long.shape
 time.shape
 sla.shape
 sla[:,0,:]
+#sla[:,:,0]
+sla.data
+plt.pcolor(time[:],lat[:],sla[:,:,0].T, cmap='cubehelix')
+                                        

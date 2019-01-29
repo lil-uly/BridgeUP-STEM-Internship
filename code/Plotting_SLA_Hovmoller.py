@@ -10,6 +10,7 @@ lat = dataset.variables['latitude']
 long = dataset.variables['longitude']
 sla = dataset.variables['sla'][:]
 
+
 dataset.variables.keys()
 time = dataset.variables['time']
 graph = plt.pcolor(long[:], lat[:], sla[:,:,0], cmap='cubehelix')
@@ -30,4 +31,20 @@ sla[:,0,:]
 #sla[:,:,0]
 sla.data
 plt.pcolor(time[:],lat[:],sla[:,:,0].T, cmap='cubehelix')
-                                        
+
+#hovmoller forloop
+import datatime
+time.data
+dates = []
+
+for day in time:
+    newdays = datetime.date(month=1, day=1, year=1950) + datetime.timedelta(day + 0)
+    date
+
+day = time[0]
+day
+
+day + 0
+newdays = datetime.date(month=1, day = 1, year = 1950) + datetime.timedelta(day + 0)
+
+newdays

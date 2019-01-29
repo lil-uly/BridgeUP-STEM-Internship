@@ -22,3 +22,24 @@ plt.xlabel('longitude')
 plt.ylabel('latitude')
 plt.title('Sea level anomaly in Bermuda on day 9149')
 #plt.savefig('sla_Bermuda_9149.png', format = 'png', dpi = 1000)
+
+def sla_plot(day):
+    graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='cubehelix')
+    cb = plt.colorbar(graph)
+    cb.set_label('m')
+    plt.xlabel('longitude')
+    plt.ylabel('latitude')
+    plt.title('Sea level anomaly in Bermuda on day {}'.format(day))
+
+sla_plot(10)
+
+def plot_loop(day):
+    for i in range(day):
+        fig = plt.figure()
+        graph = plt.pcolor(lon[:], lat[:], sla[i,:,:], cmap ='cubehelix')
+        cb = plt.colorbar(graph)
+        cb.set_label('m')
+        plt.xlabel('longitude')
+        plt.ylabel('latitude')
+        plt.title('Sea level anomaly in Bermuda on day {}'.format(i))
+plot_loop(5)

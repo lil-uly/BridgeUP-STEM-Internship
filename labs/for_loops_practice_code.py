@@ -2,7 +2,6 @@
 import datetime
 
 
-
 ## Answer to Question 1 here
 
 1 + 5
@@ -77,5 +76,7 @@ units = 'days since Jan. 1, 1950'
 #is its value in mm/dd/yy? What mathematical operation are you performing? Addition
 
 def date_adder(day):
-    for item in time
-    
+    for item in time:
+        datetime.date(time)
+
+date_adder(1)

@@ -12,8 +12,9 @@ dataset.variables['time'][:].shape
 lat = dataset.variables['latitude']
 lon = dataset.variables['longitude']
 sla = dataset.variables['sla']
+time= dataset.variables['time']
 
-
+uur
 day = 9148
 graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='plasma')
 cb = plt.colorbar(graph)
@@ -23,6 +24,8 @@ plt.ylabel('latitude')
 plt.title('Sea level anomaly in Bermuda on day 9149')
 #plt.savefig('sla_Bermuda_9149.png', format = 'png', dpi = 1000)
 
+
+#Plots chart day by day
 def sla_plot(day):
     graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='cubehelix')
     cb = plt.colorbar(graph)
@@ -30,16 +33,15 @@ def sla_plot(day):
     plt.xlabel('longitude')
     plt.ylabel('latitude')
     plt.title('Sea level anomaly in Bermuda on day {}'.format(day))
-
 sla_plot(10)
 
-def plot_loop(day):
-    for i in range(day):
-        fig = plt.figure()
-        graph = plt.pcolor(lon[:], lat[:], sla[i,:,:], cmap ='cubehelix')
-        cb = plt.colorbar(graph)
-        cb.set_label('m')
-        plt.xlabel('longitude')
-        plt.ylabel('latitude')
-        plt.title('Sea level anomaly in Bermuda on day {}'.format(i))
-plot_loop(5)
+import datetime
+def date_adder(day):
+    return datetime.date(month = 1,day = 1, year = 1950) + datetime.timedelta(int(day))
+
+date_adder(9140)
+
+mmddyy = []
+for dates in time:
+    mmddyy[].append(date_adder(dates))
+    print(mmddyy)

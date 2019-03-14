@@ -59,14 +59,14 @@ With all the useful commands we've learned so far.
 | **Jan. 10, 2019 (Thursday)** | Hovmoller diagrams and for loops | - Finish up Hovmoller diagrams <br/> - Review of for loops <br/> |   | [For loops exercise](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/labs/lab_01-10-19.md)
 | Jan. 15, 2019 (Tuesday) | Dataset for loops | - Using for loops with our dataset <br/> - Creating animations |   | [For loops and str.format](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/labs/lab_01_15_19.md)
 | Jan. 17, 2019 (Thursday) |  Dataset for loops cont'd | - Using for loops with our dataset  <br/> - Creating animations |   |
-| Jan. 22, 2019 (Tuesday) | Contour lines (by hand) | - Introduction to contour lines <br/> - Hands-on activity  |   |
+| Jan. 22, 2019 (Tuesday) | For loops cont'd |  |   |
 | Jan. 24, 2019 (Thursday) | Guest speaker (tentative)  |   | Guest speaker: Nathalie Goodkin   |
-| Jan. 29, 2019 (Tuesday) | Contour lines (with code!)  | - Using contour with Matplotlib <br/> - Accessing different contour lines |   |
-| Jan. 31, 2019 (Thursday) | Contour lines (with code!) cont'd  | - Visualizing contour lines <br/> - How do contours relate to eddies?  |   |
+| Jan. 29, 2019 (Tuesday) | For loops cont'd  |  |   |
+| Jan. 31, 2019 (Thursday) | Internships canceled due to bad weather! |  |   |
 | Feb. 5, 2019 (Tuesday) | No session |    | |
-| Feb. 7, 2019 (Thursday) | Introduction to algorithms  | - What is an algorithm? <br/> - Practice with algorithms  |   |
+| Feb. 7, 2019 (Thursday) | For loops and str.format  | Using custom formats to save images |   |
 | Feb. 12, 2019 (Tuesday) | No session |   |   |
-| Feb. 14, 2019 (Thursday) | Algorithms and pseudo-code  | - Discuss steps necessary to identify eddies in our data <br/> - How can we write an algorithm to do this?  | Louise visits  |
+| Feb. 14, 2019 (Thursday) | Creating an animation of our sea level anomaly data | | Louise visits  |
 | Feb. 19, 2019 (Tuesday) | No session |   |  Mid-winter recess |
 | Feb. 21, 2019 (Thursday) | No session |   |  Mid-winter recess |
 <<<<<<< HEAD
@@ -75,6 +75,7 @@ With all the useful commands we've learned so far.
 =======
 | Feb. 26, 2019 (Tuesday) | Resume building workshop |   | Katy gone for conference  |
 | Feb. 28, 2019 (Thursday) | HTML/CSS Workshop |   | Katy gone for conference  |
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
 | March 5, 2019 (Tuesday) |   |   |   |
@@ -111,11 +112,27 @@ With all the useful commands we've learned so far.
 | April 16, 2019 (Tuesday) | Discuss statistics  | - Split into teams, each team works on a different calculation <br/> - i.e. (1) temporality (2) density of eddies (3) ???? |   |
 | April 18, 2019 (Thursday) | Continue with statistics  |   |   |
 >>>>>>> d1e9f8afd0cfe00582f58480d6deb93ddc446891
+=======
+| March 5, 2019 (Tuesday) | Guest speaker: Alison Parrish | How can we use code to make poetry? | | [Alison's GitHub](https://github.com/aparrish) 
+| March 7, 2019 (Thursday) | Dataset for loops | - Review of script <br/> - Wrapping up animation of our data| |
+| March 12, 2019 (Tuesday) | Contour maps | - What are contour lines? <br/> - Potato activity <br/> - Drawing contours by hand | | [Lab activity](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/labs/lab_03_12_19.md)
+| March 14, 2019 (Thursday) | How can we use Matplotlib for contour maps? | - Practice with sample data <br | |
+| March 19, 2019 (Tuesday) | | | |
+| March 21, 2019 (Thursday) | | | |
+| March 26, 2019 (Tuesday) | | | |
+| March 28, 2019 (Thursday) | | | |
+| April 2, 2019 (Tuesday) | | | |
+| April 4, 2019 (Thursday) | Presentation skills workshop |   |   |
+| April 9, 2019 (Tuesday) | | | |
+| April 11, 2019 (Thursday) | | | |
+| April 16, 2019 (Tuesday) | | | |
+| April 18, 2019 (Thursday) | | | |
+>>>>>>> d7b93f0b01229f5da98c01d7260f1d4d939a7f2c
 | April 23, 2019 (Tuesday) | No session |   | Spring recess  |
 | April 25, 2019 (Thursday) | No session |   | Spring recess  |
-| April 30, 2019 (Tuesday) | Continue with statistics  |   |   |
-| May 2, 2019 (Thursday) | Continue with statistics/begin poster  |   |   |
-| May 7, 2019 (Tuesday) | Discuss results of analysis: Why do eddies appear where they do? (Part of poster discussion)  | - Gulf Stream meanders   |   |
+| April 30, 2019 (Tuesday) | | | |
+| May 2, 2019 (Thursday) | | | |
+| May 7, 2019 (Tuesday) | | | |
 | May 9, 2019 (Thursday) | Work on poster, presentation  |   |   |
 | May 14, 2019 (Tuesday) | Work on poster, presentation  |   |   |
 | May 16, 2019 (Thursday) | Work on poster, presentation  |   |   |

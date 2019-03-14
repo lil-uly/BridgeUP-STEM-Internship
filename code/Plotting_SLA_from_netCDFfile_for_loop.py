@@ -35,16 +35,18 @@ import datetime
 def date_adder(day):
     return datetime.date(month = 1,day = 1, year = 1950) + datetime.timedelta(int(day))
 
+
 date_adder(9140)
 
 mmddyy = []
-for dates in time:
-    mmddyy[04].append(date_adder(dates))
-    print(mmddyy)
+
+'''for dates in time:
+    mmddyy.append(date_adder(dates))
+    print(mmddyy)'''
 
 
 def sla_plot(day):
-    graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='cubehelix')
+    graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='Purples')
     cb = plt.colorbar(graph)
     cb.set_label('m')
     plt.xlabel('longitude')
@@ -55,10 +57,10 @@ def sla_plot(day):
 sla_plot(3651)
 
 day
-
-for d in range(3287,3651):
+#2002 range: 3287 - 3652
+for d in range(3651,3652):
         fig = plt.figure(figsize=(8,5))
-        graph = plt.pcolor(lon[:], lat[:], sla[d,:,:], cmap ='cubehelix')
+        graph = plt.pcolor(lon[:], lat[:], sla[d,:,:], cmap ="Spectral")
         cb = plt.colorbar(graph)
         cb.set_label('m')
         plt.xlabel('Longitude')

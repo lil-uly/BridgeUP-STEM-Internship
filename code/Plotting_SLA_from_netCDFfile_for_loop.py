@@ -57,7 +57,7 @@ def sla_plot(day):
 sla_plot(3651)
 
 day
-#2002 range: 3287 - 3652
+#2002 day range: 3287 - 3652
 for d in range(3651,3652):
         fig = plt.figure(figsize=(8,5))
         graph = plt.pcolor(lon[:], lat[:], sla[d,:,:], cmap ="Spectral")
@@ -68,6 +68,15 @@ for d in range(3651,3652):
         plt.title('Sea level anomaly in Bermuda on day {}'.format(date_adder(time[d])))
         plt.savefig('SLA_Bermuda_day{}'.format(date_adder(time[d])))
 
+for d in range(3287,3651):
+        fig = plt.figure(figsize=(8,5))
+        graph = plt.pcolor(lon[:], lat[:], sla[d,:,:], cmap ='Spectral')
+        cb = plt.colorbar(graph)
+        cb.set_label('m')
+        plt.xlabel('Longitude')
+        plt.ylabel('Latitude')
+        plt.title('Sea level anomaly in Bermuda on day {}'.format(date_adder(time[d])))
+        plt.savefig('Timelapse/SLA_Bermuda_day{}.png'.format(d),format="png",dpis=500)
 
 #Calculating the number of days needed
 2002 - 1993

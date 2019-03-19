@@ -8,4 +8,8 @@
 *.ipynb_checkpoints
 *.DS_Store
 *.orig
+<<<<<<< HEAD
 >>>>>>> 25e884d15ee0ac54f2bf7defdc836b787a975f66
+=======
+sla_Bermuda_*.png
+>>>>>>> 254fae0eceaebfd2d9087f7d71da98206c65a4bd

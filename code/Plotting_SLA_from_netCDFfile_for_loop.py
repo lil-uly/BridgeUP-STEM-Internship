@@ -1,4 +1,4 @@
-from netCDF4 import Dataset #Tool we need to load in our nc dataset
+from netCDF4 import Dataset #Tool we/Users/student/Desktop/BridgeUP-STEM-Abbott/labs/eddy_contours_script_032819.py need to load in our nc dataset
 import numpy as np
 import matplotlib.pyplot as plt
 dataset = Dataset('/Users/student/Desktop/BridgeUP-STEM-Abbott/datasets/Bermuda_data_SLA.nc')  #Loading in our dataset

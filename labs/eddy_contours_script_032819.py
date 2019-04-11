@@ -34,10 +34,11 @@ day = 0
 def date_adder(day):
   return datetime.date(year=1950, month=1, day=1) + datetime.timedelta(int(day))
 
-mmddyy=[]
+
 ##Unsuccessful attempt at converting days to dates
 
-'''for value in time:
+''' mmddyy=[]
+for value in time:
    converted_dates=date_adder(value)
    mmddyy.append(converted_dates)'''
 
@@ -75,7 +76,7 @@ def coordinate1(day, level):
 
 coordinate1(3, 2)
 
-
+#Plotting a contour plot
 cp = plt.contour(long, lat, sla[day])
 
 
@@ -94,10 +95,10 @@ def coordinates(level):
 levels= np.arange(start=sla_min,stop=sla_max, step=0.01)
 
 
-
+#Variable of all of the SLA values, step of 0.01
 sla_list = np.arange(sla_min, sla_max, 0.01)
 
-
+print(sla_list)
 
 
 ## Write code to create a Pandas dataframe where each contour line and

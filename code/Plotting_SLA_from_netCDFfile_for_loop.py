@@ -17,7 +17,7 @@ time= dataset.variables['time']
 time[:]
 
 
-graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='plasma')
+graph = plt.pcolor(lon[:], lat[:], sla[-1,:,:], cmap ='Spectral')
 cb = plt.colorbar(graph)
 cb.set_label('m')
 plt.xlabel('longitude')
@@ -46,13 +46,13 @@ mmddyy = []
 
 
 def sla_plot(day):
-    graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='Purples')
+    graph = plt.pcolor(lon[:], lat[:], sla[day,:,:], cmap ='Spectral')
     cb = plt.colorbar(graph)
     cb.set_label('m')
     plt.xlabel('longitude')
     plt.ylabel('latitude')
     plt.title('Sea level anomaly in Bermuda on day {}'.format(date_adder(time[day])))
-    plt.savefig('SLA_Bermuda_day{}'.format(date_adder(time[day])))
+    #plt.savefig('SLA_Bermuda_day{}'.format(date_adder(time[day])))
 
 sla_plot(3651)
 

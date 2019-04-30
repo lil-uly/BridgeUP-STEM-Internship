@@ -1,4 +1,3 @@
-## Put any import statements here
 from netCDF4 import Dataset
 import numpy as np
 import matplotlib.pyplot as plt
@@ -37,13 +36,13 @@ def date_adder(day):
 
 ##Unsuccessful attempt at converting days to dates
 
-''' mmddyy=[]
+ mmddyy=[]
 for value in time:
    converted_dates=date_adder(value)
-   mmddyy.append(converted_dates)'''
+   mmddyy.append(converted_dates)
 
   #Defines the contours for each day
-def contour (day):
+def contour(day):
    long_min=(np.min(long))
    long_max=(np.max(long))
    lat_min=(np.min(lat))
@@ -58,7 +57,7 @@ def contour (day):
    plt.ylabel('latitude')
    plt.title(" Contour Sea Level Anomaly Plot for Bermuda on {}".format(mmddyy[day]))
    #plt.savefig("Contour Sea Level Anomaly Plot for Bermuda on {}".format(mmddyy[day]))
-
+contour(3)
 ##Plots contour plot with filled data
 cp = plt.contourf(long, lat, sla[day])
 
@@ -84,6 +83,7 @@ cp = plt.contour(long, lat, sla[day])
 def contour_levels(level):
     return cp.collections[level].get_paths()
 
+contour_levels(2)
 #Defines the coordinates of each level
 def coordinates(level):
    levels= np.arange(start=sla_min,stop=sla_max, step=0.01)
@@ -91,6 +91,7 @@ def coordinates(level):
    b=(cp.collections[level].get_paths())
    return a,b
 
+coordinates(2)
 #Different levels for each contour
 levels= np.arange(start=sla_min,stop=sla_max, step=0.01)
 
@@ -123,8 +124,56 @@ for item in range(0, len(cp.levels)):
    df=df.append(df1, ignore_index=True)
 
 print(df)
-
+df
 
 
 ###Algorithm for Contour Levels
 ##If contour levels are open, drop the contour line
+
+def c(PATH):
+    if PATH.vertices == PATH.vertices:
+        return True
+
+
+    df.head
+
+
+#def closed(Path):
+  if coords[0] == coords[-1]:
+      return True
+
+df[2].apply(True)
+
+from matplotlib.path import Path
+##the first path should return true
+path1 = Path([(295.18448575,  32.        ),(295.19526986,  32.2       ),(295.2       ,  32.20979566),(295.20711855,  32.2       ),(295.18448575,  32.        )], None)
+##the second path should return false
+path2 = Path([(291.18448575,  22.        ),(295.19526986,  32.2       ),(295.2       ,  32.20979566),(295.20711855,  32.2       ),(295.23659369,  32.        )], None)
+
+path1.vertices[]
+print(path1)
+
+c(path1)
+
+
+def closed(path):
+    v = path.vertices
+    x1 = v[0,0]
+    y1 = v[0,1]
+    x2 = v[-1, 0]
+    y2 = v[-1, 1]
+    delta = np.sqrt((x1-x2)**2 + (y2-y1)**2)
+    if delta <= .05:
+        return True
+    else:
+        return False
+df["PATH"].apply(closed)
+df["EDDY"]=df["PATH"].apply(closed)
+df.head()
+closed(path1)
+
+
+
+
+#if level[0] == level[-1]:
+#return True'''

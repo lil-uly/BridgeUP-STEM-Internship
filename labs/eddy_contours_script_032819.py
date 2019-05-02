@@ -150,7 +150,7 @@ path1 = Path([(295.18448575,  32.        ),(295.19526986,  32.2       ),(295.2  
 ##the second path should return false
 path2 = Path([(291.18448575,  22.        ),(295.19526986,  32.2       ),(295.2       ,  32.20979566),(295.20711855,  32.2       ),(295.23659369,  32.        )], None)
 
-path1.vertices[]
+path1.vertices
 print(path1)
 
 c(path1)
@@ -171,9 +171,24 @@ df["PATH"].apply(closed)
 df["EDDY"]=df["PATH"].apply(closed)
 df.head()
 closed(path1)
+df
+closed(path1)
 
+#Drops all of the false eddy values and creates a new dataset
+eddy_df = df[df.EDDY == True]
+eddy_df
 
+path1
+path1.vertices.shape
+path1.vertices[:,0]
 
+#Function to identify track all of the eddies
+def contourid(day):
+    lat = eddy_df.PATH.vertices[:,0]
+    lon = eddy_df.PATH.vertices[:,1]
+    cp = plt.contour(lon, lat, sla)
 
+contourid(2)
+Ppath1.vertices(lat)
 #if level[0] == level[-1]:
 #return True'''

@@ -75,8 +75,7 @@ for d in range(3287,3651):
         cb.set_label('m')
         plt.xlabel('Longitude')
         plt.ylabel('Latitude')
-        plt.title('Sea level anomaly in Bermuda on day {}'.format(date_adder(time[d])))
-        plt.savefig('Timelapse/SLA_Bermuda_day{}.png'.format(d),format="png",dpis=500)
+        s
 
 #Calculating the number of days needed
 2002 - 1993

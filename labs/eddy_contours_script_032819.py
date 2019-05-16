@@ -207,6 +207,7 @@ for i in (range(0,15)):
 ##Drops all open eddies
 closed_eddy_df = df[df.EDDY == True]
 
+closed_eddy_df
 ##Resets the counter on the dataframe
 closed_eddy_df_2 = closed_eddy_df.reset_index(drop=True)
 closed_eddy_df_2
@@ -215,7 +216,7 @@ closed_eddy_df_2
 
 def finding_inner(x):
    counter = 0
-   for i in range(0, len(eddy_df_2.PATH)):
+   for i in range(0, len(closed_eddy_df_2.PATH)):
        if closed_eddy_df_2.PATH[i].contains_path(x) == True and closed_eddy_df_2.PATH[i] != x:
            counter+=1
    if counter >= 1:
@@ -238,14 +239,22 @@ outer_eddy_df = outer_eddy_df.reset_index(drop=True)
 outer_eddy_df.EDDY == True
 
 
+import datetime
+def date_adder(day):
+    return datetime.date(month = 1,day = 1, year = 1950) + datetime.timedelta(int(day))
+
+
+
+
 plt.figure()
-for i in (range(0,6)):
+for i in (range(0,10)):
     latitude = outer_eddy_df.PATH[i].vertices[:,1]
     lon = outer_eddy_df.PATH[i].vertices[:,0]
-    plt.plot(lon, latitude)
-graph = plt.pcolor(long[:], lat[:], sla[day,:,:], cmap='cubehelix')
+    plt.plot(lon, latitude, color="black")
+graph = plt.pcolor(long[:], lat[:], sla[day,:,:], cmap='Spectral_r')
 cb = plt.colorbar(graph)
 cb.set_label('m')
 plt.xlabel('Longitude')
 plt.ylabel('Latitude')
-plt.title('Sea level Anomalies in Bermuda on day 0')
+plt.title('Sea level anomaly in Bermuda on day {}'.format(date_adder(time[day])))
+plt.savefig('Final_SLA_plot'.format(day),format="png",dpis=500)
